@@ -1,0 +1,20 @@
+搭建PyQt5开发环境
+
+ok 1. Python
+
+Anaconda
+
+2. PyQt5模块
+
+pip install pyqt5
+
+pip uninstall pyqt5
+
+如果本机安装了多个Python环境，要分清pip到底属于哪一个Python环境
+
+在Python的REPL环境中输入import PyQt5，如果没有报错，说明PyQt5安装成功
+
+3. PyCharm
+
+
+
