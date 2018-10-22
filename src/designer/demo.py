@@ -27,7 +27,7 @@ class Ui_MainWindow(object):
         self.treeView.setGeometry(QtCore.QRect(360, 140, 256, 192))
         self.treeView.setObjectName("treeView")
         self.calendarWidget = QtWidgets.QCalendarWidget(self.centralwidget)
-        self.calendarWidget.setGeometry(QtCore.QRect(110, 330, 296, 194))
+        self.calendarWidget.setGeometry(QtCore.QRect(130, 340, 296, 194))
         self.calendarWidget.setObjectName("calendarWidget")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)

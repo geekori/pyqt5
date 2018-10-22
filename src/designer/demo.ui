@@ -66,8 +66,8 @@
    <widget class="QCalendarWidget" name="calendarWidget">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>330</y>
+      <x>130</x>
+      <y>340</y>
       <width>296</width>
       <height>194</height>
      </rect>
