@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'MainWinGridLayout.ui'
 #
-# Created by: PyQt5 UI code generator 5.9.2
+# Created by: PyQt5 UI code generator 5.11.3
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -15,7 +15,7 @@ class Ui_MainWindow(object):
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.layoutWidget = QtWidgets.QWidget(self.centralwidget)
-        self.layoutWidget.setGeometry(QtCore.QRect(60, 10, 221, 181))
+        self.layoutWidget.setGeometry(QtCore.QRect(60, 10, 235, 181))
         self.layoutWidget.setObjectName("layoutWidget")
         self.gridLayout = QtWidgets.QGridLayout(self.layoutWidget)
         self.gridLayout.setContentsMargins(0, 0, 0, 0)
@@ -33,7 +33,7 @@ class Ui_MainWindow(object):
         self.pushButton_4.setObjectName("pushButton_4")
         self.gridLayout.addWidget(self.pushButton_4, 1, 1, 1, 1)
         self.layoutWidget1 = QtWidgets.QWidget(self.centralwidget)
-        self.layoutWidget1.setGeometry(QtCore.QRect(-80, 250, 334, 211))
+        self.layoutWidget1.setGeometry(QtCore.QRect(-240, 250, 477, 211))
         self.layoutWidget1.setObjectName("layoutWidget1")
         self.gridLayout_2 = QtWidgets.QGridLayout(self.layoutWidget1)
         self.gridLayout_2.setContentsMargins(0, 0, 0, 0)
@@ -78,7 +78,7 @@ class Ui_MainWindow(object):
         self.pushButton_28.setObjectName("pushButton_28")
         self.gridLayout_2.addWidget(self.pushButton_28, 1, 0, 1, 1)
         self.layoutWidget2 = QtWidgets.QWidget(self.centralwidget)
-        self.layoutWidget2.setGeometry(QtCore.QRect(420, 60, 182, 134))
+        self.layoutWidget2.setGeometry(QtCore.QRect(420, 60, 416, 165))
         self.layoutWidget2.setObjectName("layoutWidget2")
         self.gridLayout_3 = QtWidgets.QGridLayout(self.layoutWidget2)
         self.gridLayout_3.setContentsMargins(0, 0, 0, 0)
@@ -117,7 +117,7 @@ class Ui_MainWindow(object):
         self.pushButton_26.setObjectName("pushButton_26")
         self.gridLayout_3.addWidget(self.pushButton_26, 3, 4, 1, 2)
         self.gridLayoutWidget = QtWidgets.QWidget(self.centralwidget)
-        self.gridLayoutWidget.setGeometry(QtCore.QRect(280, 240, 458, 181))
+        self.gridLayoutWidget.setGeometry(QtCore.QRect(290, 260, 497, 181))
         self.gridLayoutWidget.setObjectName("gridLayoutWidget")
         self.gridLayout_4 = QtWidgets.QGridLayout(self.gridLayoutWidget)
         self.gridLayout_4.setContentsMargins(0, 0, 0, 0)
@@ -154,7 +154,7 @@ class Ui_MainWindow(object):
         self.gridLayout_4.addWidget(self.radioButton, 2, 3, 1, 1)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 22))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 30))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
