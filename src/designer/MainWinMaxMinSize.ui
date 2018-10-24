@@ -17,10 +17,10 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>40</y>
-      <width>261</width>
-      <height>241</height>
+      <x>180</x>
+      <y>90</y>
+      <width>300</width>
+      <height>300</height>
      </rect>
     </property>
     <property name="minimumSize">

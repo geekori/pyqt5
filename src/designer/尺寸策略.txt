@@ -1,0 +1,23 @@
+尺寸策略（sizePolicy）
+
+sizeHint（期望尺寸）
+
+对于大多数控件来说，sizeHint的值是只读的
+
+读取期望尺寸
+
+self.pushButton.sizeHint().width()   // 77
+self.pushButton.sizeHint().height()  // 32
+
+QPushButton   width：77   height 32
+QTextEdit  width：256   height：192
+
+最小期望尺寸
+
+self.pushButton.minimumSizeHint().width()
+self.pushButton.minimumSizeHint().height()
+
+QTextEdit  78  78
+
+QPushButton的期望尺寸和最新期望尺寸相同
+
