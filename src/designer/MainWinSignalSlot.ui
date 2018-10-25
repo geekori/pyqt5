@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>531</width>
-    <height>264</height>
+    <height>305</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,14 +17,66 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>30</y>
+      <x>170</x>
+      <y>20</y>
       <width>113</width>
       <height>32</height>
      </rect>
     </property>
     <property name="text">
      <string>关闭窗口</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>70</y>
+      <width>86</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>显示/隐藏</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>140</y>
+      <width>151</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>可用/不可用</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>100</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>170</y>
+      <width>104</width>
+      <height>78</height>
+     </rect>
     </property>
    </widget>
   </widget>
@@ -41,5 +93,54 @@
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>200</x>
+     <y>69</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>198</x>
+     <y>110</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lineEdit</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>141</x>
+     <y>102</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>151</x>
+     <y>133</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>textEdit</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>181</x>
+     <y>170</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>182</x>
+     <y>237</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
