@@ -14,7 +14,7 @@ EchoMode（回显模式）
 4. PasswordEchoOnEdit
 
 
-
+Mac : Command    Windows:Control
 '''
 from PyQt5.QtWidgets import *
 import sys
