@@ -33,7 +33,7 @@ class QPushButtonDemo(QDialog) :
         self.button1.setCheckable(True)
         self.button1.toggle()
         self.button1.clicked.connect(self.buttonState)
-        self.button1.clicked.connect(lambda:self.whichButton(self.button1))
+        self.button1.clicked.connect(lambda :self.whichButton(self.button1))
 
         layout.addWidget(self.button1)
 
