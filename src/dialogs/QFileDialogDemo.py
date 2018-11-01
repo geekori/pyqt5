@@ -43,7 +43,7 @@ class QFileDialogDemo(QWidget):
 
         if dialog.exec():
             filenames = dialog.selectedFiles()
-            f = open(filenames[0],'r')
+            f = open(filenames[0],encoding='utf-8',mode='r')
             with f:
                 data = f.read()
                 self.contents.setText(data)
