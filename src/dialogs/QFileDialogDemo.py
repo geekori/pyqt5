@@ -30,7 +30,7 @@ class QFileDialogDemo(QWidget):
         layout.addWidget(self.contents)
 
         self.setLayout(layout)
-        self.setWindowTitle('文件对话框演示')
+        self.setWindowTitle('文件对话框演示 ')
 
     def loadImage(self):
         fname,_ = QFileDialog.getOpenFileName(self,'打开文件','.','图像文件(*.jpg *.png)')
