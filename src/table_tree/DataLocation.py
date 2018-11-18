@@ -2,7 +2,7 @@
 
 在表格中快速定位到特定的行
 
-1. 数据的定位：findItems
+1. 数据的定位：findItems  返回一个列表
 2. 如果找到了满足条件的单元格，会定位到单元格所在的行：setSliderPosition(row)
 
 '''
