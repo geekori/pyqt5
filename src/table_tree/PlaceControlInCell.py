@@ -2,8 +2,9 @@
 
 在单元格中放置控件
 
-setCellWidget
-
+setItem：将文本放到单元格中
+setCellWidget：将控件放到单元格中
+setStyleSheet：设置控件的样式（QSS）
 
 '''
 
@@ -34,7 +35,7 @@ class PlaceControlInCell(QWidget):
         combox = QComboBox()
         combox.addItem('男')
         combox.addItem('女')
-        # QSS
+        # QSS Qt StyleSheet
         combox.setStyleSheet('QComboBox{margin:3px};')
         tableWidget.setCellWidget(0,1,combox)
 
