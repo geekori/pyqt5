@@ -1,0 +1,46 @@
+ <html>
+    <head>
+      <title>A Demo Page</title>
+      <meta charset="UTF-8">
+      <script src="./qwebchannel.js"></script>
+      <script language="javascript">
+
+        function callback(result) {
+            alert('计算结果:' + result)
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+
+        	new QWebChannel( qt.webChannelTransport, function(channel) {
+
+	            window.obj = channel.objects.obj;
+	        });
+        });
+
+	      function onFactorial() {
+
+	        if ( window.obj) {
+
+                var n = parseInt(document.getElementById('n').value);
+                window.obj.factorial(n,callback)
+
+
+
+	        }
+
+        }
+
+
+      </script>
+    </head>
+
+    <body>
+      <form>
+        <label >请输入N：</label>
+        <input type="text"  id="n"></input>
+        <br />
+        <input type="button" value="计算阶乘" onclick="onFactorial()">
+
+      </form>
+    </body>
+  </html>
