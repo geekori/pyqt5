@@ -6,6 +6,7 @@
 
 from PyQt5.QtWidgets import *
 import sys
+import qdarkstyle
 class QSSSelector(QWidget):
     def __init__(self):
         super().__init__()
@@ -44,6 +45,7 @@ if __name__ == "__main__":
             font-size:30px;
         }
     '''
-    form.setStyleSheet(qssStyle)
+    #form.setStyleSheet(qssStyle)
+    form.setStyleSheet(qdarkstyle.load_stylesheet_pyqt5())
     form.show()
     sys.exit(app.exec_())
