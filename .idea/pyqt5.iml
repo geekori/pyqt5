@@ -15,6 +15,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/windows" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/windows/QDarkStyleSheet-master" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/windows/QDarkStyleSheet-master/example" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ext" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

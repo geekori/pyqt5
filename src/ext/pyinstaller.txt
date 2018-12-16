@@ -1,0 +1,10 @@
+使用Pyinstaller打包PyQt5应用
+
+
+pip3 install pyinstaller
+
+pyinstaller -Fw Calc.py
+
+-w：不显示终端
+-F：将所有的库打包成一个单独的文件
+
