@@ -16,7 +16,7 @@ class MainWindow(QMainWindow ):
  		
 	def queryWeather(self):
 		cityName = self.ui.weatherComboBox.currentText()
-		cityCode1 = self.transCityName(cityName)
+		cityCode = self.transCityName(cityName)
 
 		rep = requests.get('http://www.weather.com.cn/data/sk/' + cityCode + '.html')
 		rep.encoding = 'utf-8'
