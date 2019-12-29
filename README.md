@@ -44,6 +44,11 @@
 [滚动条控件（QScrollBar）](src/containers/ScrollBar.py)  
 [选项卡控件：（QTabWidget）](src/containers/TabWidget.py)
 ## [信号与槽](src/SignalSlot/)
-[信号与槽自动连接](src/SignalSlot/AutoSignalSlot.py)
-[自定义信号](src/SignalSlot/CustomSignal.py)
+[信号与槽自动连接](src/SignalSlot/AutoSignalSlot.py)  
+[自定义信号](src/SignalSlot/CustomSignal.py)  
 []
+
+## 多线程
+[让程序自动关闭](src/multithread/AutoCloseWindow.py)  
+[计数器](src/multithread/Counter.py)  
+[动态显示时间](src/multithread/ShowTime.py)
