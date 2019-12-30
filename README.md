@@ -6,6 +6,7 @@
 [.ui文件转.py文件](src/designer/将.ui文件转换为.py文件.txt)
 
 ## 布局与设计
+> 可参考其他链接[Pyqt5之布局管理](https://www.cnblogs.com/laizhenghong2012/p/10040798.html)
 [绝对布局](src/layout/AbsoluteLayout.py)  
 [栅格布局](src/layout/Calc.py)  
 [表单布局（QFormLayout）](src/layout/FormLayout.py)  
@@ -17,6 +18,7 @@
 [拖动控件之间的边界（QSplitter）](src/layout/Splitter.py)  
 [设置伸缩量（addStretch）](src/layout/Stretch.py)  
 [混合布局/嵌套布局](src/layout/MixLayout.py)
+[混合布局/嵌套布局1](src/layout/MixLayout1.py)
 
 
 
