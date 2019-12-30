@@ -3,6 +3,22 @@
 [Hello world!](src/basic/First.py)  
 [环境说明.txt](src/basic/搭建PyQt5开发环境.txt) 
 [窗口类型.txt](src/controls/主窗口类型.txt)
+[.ui文件转.py文件](src/designer/将.ui文件转换为.py文件.txt)
+
+## 布局与设计
+[绝对布局](src/layout/AbsoluteLayout.py)
+[栅格布局](src/layout/Calc.py
+[表单布局（QFormLayout）](src/layout/FormLayout.py)
+[栅格布局：表单设计](src/layout/GridForm.py)
+[水平盒布局（QHBoxLayout）](src/layout/HBoxLayout.py)  
+[垂直盒布局（QBoxLayout）](src/layout/VBoxLayout.py)  
+[设置控件的对齐方式](src/layout/HBoxLayoutAlign.py)  
+[让按钮永远在窗口右下角](src/layout/RightBottomButton.py)    
+[拖动控件之间的边界（QSplitter）](src/layout/Splitter.py)  
+[设置伸缩量（addStretch）](src/layout/Stretch.py)  
+
+
+
 
 ## 基础组件与操作
 ### 组件
@@ -32,29 +48,31 @@
 [创建和使用工具栏](src/menu_toolbar_statusbar/Toolbar.py)  
 [创建和使用状态栏](src/menu_toolbar_statusbar/StatusBar.py)  
 
+## 剪切板
+[使用剪贴板](src/drapclip/ClipBoard.py)  
+[让控件支持拖拽动作]()
+
 ## 树/表格
 ### 树
-[树控件（QTreeWidget）的基本用法](src/table_tree/BasicTreeWidget.py)
-[显示列表数据（QListView控件）](src/table_tree/ListView.py)
-[扩展的列表控件（QListWidget）](src/table_tree/ListWidget.py) 
-[添加、修改和删除树控件中的节点](src/table_tree/ModifyTree.py)  
-[为树节点添加响应事件](src/table_tree/TreeEvent.py)
+[树控件（QTreeWidget）的基本用法](src/table_tree/BasicTreeWidget.py)  
+[显示列表数据（QListView控件）](src/table_tree/ListView.py)  
+[扩展的列表控件（QListWidget）](src/table_tree/ListWidget.py)   
+[添加、修改和删除树控件中的节点](src/table_tree/ModifyTree.py)   
+[为树节点添加响应事件](src/table_tree/TreeEvent.py) 
 
 
 ### 表格
-[扩展的表格控件（QTableWidget）](src/table_tree/TableWidget.py)
-[设置单元格字体和颜色](src/table_tree/CellFontAndColor.py)
-[设置单元格的文本对齐方式](src/table_tree/CellTextAlignment.py)  
+[扩展的表格控件（QTableWidget）](src/table_tree/TableWidget.py)  
+[设置单元格字体和颜色](src/table_tree/CellFontAndColor.py)  
+[设置单元格的文本对齐方式](src/table_tree/CellTextAlignment.py)   
 [设置单元格尺寸](src/table_tree/CellSize.py)  
-[合并单元格](src/table_tree/Span.py)
+[合并单元格](src/table_tree/Span.py)  
 [在单元格中放置控件](src/table_tree/PlaceControlInCell.py)  
 [按列排序](src/table_tree/ColumnSort.py)  
 [改变单元格中图片的尺寸](src/table_tree/CellImageSize.py)  
-[在单元格中实现图文混排的效果](src/table_tree/CellImageText.py)  
-[在表格中快速定位到特定的行](src/table_tree/DataLocation.py)
-[显示二维表数据（QTableView控件）](src/table_tree/TableView.py
-[在表格中显示上下文菜单]()
-
+[在单元格中实现图文混排的效果](src/table_tree/CellImageText.py)    
+[在表格中快速定位到特定的行](src/table_tree/DataLocation.py)  
+[显示二维表数据（QTableView控件）](src/table_tree/TableView.py)  
 
 
 ## 对话框
@@ -95,3 +113,5 @@
 [计数器](src/multithread/Counter.py)  
 [动态显示时间](src/multithread/ShowTime.py)  
 [多线程更新UI数据](src/SignalSlot/ThreadUpdateUI.py)
+
+## [实战项目](src/project/)
