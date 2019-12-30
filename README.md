@@ -1,19 +1,19 @@
 # Pyqt5示例大全
 ## 基础入门
 [Hello world!](src/basic/First.py)  
-[环境说明.txt](src/basic/搭建PyQt5开发环境.txt) 
-[窗口类型.txt](src/controls/主窗口类型.txt)
+[环境说明.txt](src/basic/搭建PyQt5开发环境.txt)   
+[窗口类型.txt](src/controls/主窗口类型.txt)  
 [.ui文件转.py文件](src/designer/将.ui文件转换为.py文件.txt)
 
 ## 布局与设计
-[绝对布局](src/layout/AbsoluteLayout.py)
-[栅格布局](src/layout/Calc.py
-[表单布局（QFormLayout）](src/layout/FormLayout.py)
-[栅格布局：表单设计](src/layout/GridForm.py)
+[绝对布局](src/layout/AbsoluteLayout.py)  
+[栅格布局](src/layout/Calc.py)  
+[表单布局（QFormLayout）](src/layout/FormLayout.py)  
+[栅格布局：表单设计](src/layout/GridForm.py)  
 [水平盒布局（QHBoxLayout）](src/layout/HBoxLayout.py)  
 [垂直盒布局（QBoxLayout）](src/layout/VBoxLayout.py)  
 [设置控件的对齐方式](src/layout/HBoxLayoutAlign.py)  
-[让按钮永远在窗口右下角](src/layout/RightBottomButton.py)    
+[让按钮永远在窗口右下角](src/layout/RightBottomButton.py)      
 [拖动控件之间的边界（QSplitter）](src/layout/Splitter.py)  
 [设置伸缩量（addStretch）](src/layout/Stretch.py)  
 
@@ -23,10 +23,10 @@
 ## 基础组件与操作
 ### 组件
 [复选框控件（QCheckBox）](src/controls/QCheckBoxDemo.py)  
-[下拉列表控件（QComboBox）](src/controls/QComboBoxDemo.py)
+[下拉列表控件（QComboBox）](src/controls/QComboBoxDemo.py)  
 [标签控件（QLabel）](src/controls/QLabelDemo.py)  
 [标签与伙伴控件（QLabel）](src/controls/QLabelBuddy.py)  
-[文本输入框控件（QLineEdit）](src/controls/QLineEditDemo.py)  
+[文本输入框控件（QLineEdit）](src/controls/QLineEditDemo.py)    
 [文本输入框回显模式（QLineEdit）](src/controls/QLineEditEchoMode.py)    
 [文本输入框校验](src/controls/QLineEditMask.py)  
 [按钮组件（QPushButton等）](src/controls/QPushButtonDemo.py)  
@@ -39,9 +39,9 @@
 [窗口居中](src/controls/CenterForm.py)  
 [状态栏消息](src/controls/FirstMainWin.py)  
 [设置图标](src/controls/IconForm.py)  
-[退出窗口](src/controls/QuitApplication.py)
-[屏幕坐标](src/controls/ScreenGeometry.py)
-[设置组件提示消息](src/controls/Tooltip.py)
+[退出窗口](src/controls/QuitApplication.py)  
+[屏幕坐标](src/controls/ScreenGeometry.py)  
+[设置组件提示消息](src/controls/Tooltip.py)  
 
 ## 菜单栏/工具栏/状态栏
 [创建和使用菜单栏](src/menu_toolbar_statusbar/Menu.py)  
@@ -80,12 +80,12 @@
 [颜色对话框：QColorDialog](src/dialogs/QColorDialog.py)  
 [字体对话框：QFontDialog](src/dialogs/QColorDialog.py)  
 [文件对话框：QFileDialog](src/dialogs/QFileDialogDemo.py)  
-[输入对话框：QInputDialog](src/dialogs/QInputDialogDemo.py)
+[输入对话框：QInputDialog](src/dialogs/QInputDialogDemo.py)  
 [消息对话框：QMessageBox](src/dialogs/QMessageBox.py)
 
 ## 日历和时间
-[不同风格日历和时间 QDateTimeEdit](src/calendar_time/DateTimeEdit.py)
-[日历控件](src/calendar_time/MyCalendar.py)
+[不同风格日历和时间 QDateTimeEdit](src/calendar_time/DateTimeEdit.py)  
+[日历控件](src/calendar_time/MyCalendar.py)  
 
 ## 容器组件
 [停靠组件](src/containers/DockWidget.py)  
@@ -96,20 +96,20 @@
 [滚动条控件（QScrollBar）](src/containers/ScrollBar.py)  
 [选项卡控件：（QTabWidget）](src/containers/TabWidget.py)
 ## [信号与槽](src/SignalSlot/)
-[入门示例](src/SignalSlot/SignalSlotDemo.py)
+[入门示例](src/SignalSlot/SignalSlotDemo.py)  
 [信号与槽自动连接](src/SignalSlot/AutoSignalSlot.py)  
 [自定义信号](src/SignalSlot/CustomSignal.py)  
 [Lambda表达式](src/SignalSlot/LambdaSlotArg.py)  
 [为类添加多个信号](src/SignalSlot/MultiSignal.py)  
 [信号槽N对N连接与断开](src/SignalSlot/NNSignal.py)  
-[Override（覆盖）槽函数](src/SignalSlot/OverrideSlot.py)
-[使用Partial对象为槽函数传递参数](src/SignalSlot/PartialSlotArg.py)  
+[Override（覆盖）槽函数](src/SignalSlot/OverrideSlot.py)  
+[使用Partial对象为槽函数传递参数](src/SignalSlot/PartialSlotArg.py)   
 [窗口信号](src/SignalSlot/WinSignal.py)  
 
 
 
 ## 多线程
-[让程序自动关闭](src/multithread/AutoCloseWindow.py)  
+[让程序自动关闭](src/multithread/AutoCloseWindow.py)   
 [计数器](src/multithread/Counter.py)  
 [动态显示时间](src/multithread/ShowTime.py)  
 [多线程更新UI数据](src/SignalSlot/ThreadUpdateUI.py)
