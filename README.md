@@ -16,7 +16,7 @@
 [让按钮永远在窗口右下角](src/layout/RightBottomButton.py)      
 [拖动控件之间的边界（QSplitter）](src/layout/Splitter.py)  
 [设置伸缩量（addStretch）](src/layout/Stretch.py)  
-
+[混合布局/嵌套布局](src/layout/MixLayout.py)
 
 
 
